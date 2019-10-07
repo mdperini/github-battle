@@ -4,7 +4,7 @@ import { fetchPopularRepos} from '../utils/api';
 import { FaUser, FaStar, FaCodeBranch, FaExclamationTriangle } from 'react-icons/fa';
 
 function LanguagesNav({ selected, onUpdateLangauge }) {
-    const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
+    const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python', 'HTML'];
 
     return (
         <ul className='flex-center'>
