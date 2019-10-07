@@ -40,7 +40,6 @@ function getStarCount(repos) {
 
 function calculateSource(followers, repos) {
     return (followers * 3) + getStarCount(repos)
-
 }
 
 function getUserData( player ) {
@@ -59,8 +58,8 @@ function sortPlayers(players) {
 
 export function battle(players) {
     return Promise.all([
-        getUserData(player[0]),
-        getUserData(player[1])
+        getUserData(players[0]),
+        getUserData(players[1])
     ]).then(( results) => sortPlayers(results))
 
 }
