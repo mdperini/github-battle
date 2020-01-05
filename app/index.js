@@ -10,6 +10,7 @@ const Popular = React.lazy(() => import('./components/Popular'))
 const Battle = React.lazy(() => import('./components/Battle'))
 const Results = React.lazy(() => import('./components/Results'))
 
+// React Component
 class App extends React.Component {
   state = {
     theme: 'light',
